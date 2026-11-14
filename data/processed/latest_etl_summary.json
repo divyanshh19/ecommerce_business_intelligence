@@ -1,0 +1,281 @@
+{
+  "execution_status": "SUCCESS",
+  "timestamp": "2026-11-14T09:30:58.297502",
+  "duration_seconds": 37.85,
+  "overall_quality_score": 99.91,
+  "total_records_processed": 569774,
+  "table_record_counts": {
+    "customers": 99441,
+    "sellers": 3095,
+    "product_category_translation": 75,
+    "products": 32951,
+    "geolocation": 19011,
+    "orders": 99441,
+    "order_items": 112650,
+    "order_payments": 103886,
+    "order_reviews": 99224,
+    "customer_rfm_segments": 94697
+  },
+  "rfm_summary": {
+    "total_unique_customers": 94697,
+    "repeat_customers_count": 2876,
+    "repeat_purchase_rate_pct": 3.04,
+    "average_customer_spend": 165.43,
+    "average_purchase_frequency": 1.03,
+    "customer_lifetime_value_proxy": 170.39,
+    "reference_anchor_date": "2018-09-04",
+    "segments": [
+      {
+        "customer_segment": "At Risk",
+        "count": 1019,
+        "avg_recency": 388.3,
+        "avg_frequency": 2.08,
+        "avg_monetary": 294.14,
+        "total_revenue": 299728.43,
+        "percentage": 1.08
+      },
+      {
+        "customer_segment": "Champions",
+        "count": 1127,
+        "avg_recency": 89.4,
+        "avg_frequency": 2.17,
+        "avg_monetary": 344.05,
+        "total_revenue": 387739.53,
+        "percentage": 1.19
+      },
+      {
+        "customer_segment": "High-Value At Risk",
+        "count": 13890,
+        "avg_recency": 399.9,
+        "avg_frequency": 1.0,
+        "avg_monetary": 308.05,
+        "total_revenue": 4278841.94,
+        "percentage": 14.67
+      },
+      {
+        "customer_segment": "Lost Customers",
+        "count": 7896,
+        "avg_recency": 479.1,
+        "avg_frequency": 1.0,
+        "avg_monetary": 55.42,
+        "total_revenue": 437584.13,
+        "percentage": 8.34
+      },
+      {
+        "customer_segment": "Loyal Customers",
+        "count": 730,
+        "avg_recency": 210.5,
+        "avg_frequency": 2.07,
+        "avg_monetary": 273.12,
+        "total_revenue": 199379.71,
+        "percentage": 0.77
+      },
+      {
+        "customer_segment": "Need Attention",
+        "count": 14910,
+        "avg_recency": 360.4,
+        "avg_frequency": 1.0,
+        "avg_monetary": 81.84,
+        "total_revenue": 1220221.09,
+        "percentage": 15.74
+      },
+      {
+        "customer_segment": "New Customers",
+        "count": 14563,
+        "avg_recency": 94.8,
+        "avg_frequency": 1.0,
+        "avg_monetary": 54.71,
+        "total_revenue": 796749.35,
+        "percentage": 15.38
+      },
+      {
+        "customer_segment": "Potential Loyalists",
+        "count": 22233,
+        "avg_recency": 96.2,
+        "avg_frequency": 1.0,
+        "avg_monetary": 236.77,
+        "total_revenue": 5264079.7,
+        "percentage": 23.48
+      },
+      {
+        "customer_segment": "Promising",
+        "count": 18329,
+        "avg_recency": 225.6,
+        "avg_frequency": 1.0,
+        "avg_monetary": 151.76,
+        "total_revenue": 2781567.96,
+        "percentage": 19.36
+      }
+    ]
+  },
+  "quality_report": {
+    "overall_quality_score": 99.91,
+    "total_records_processed": 569774,
+    "total_null_values": 10838,
+    "average_completeness_pct": 99.76,
+    "average_referential_integrity_pct": 100.0,
+    "average_validity_pct": 100.0,
+    "tables": {
+      "category_translation": {
+        "records": 75,
+        "columns": 2,
+        "null_values": 0,
+        "completeness_pct": 100.0,
+        "duplicate_rows": 0,
+        "uniqueness_pct": 100.0,
+        "quality_score": 100.0
+      },
+      "customers": {
+        "records": 99441,
+        "columns": 5,
+        "null_values": 0,
+        "completeness_pct": 100.0,
+        "duplicate_rows": 0,
+        "uniqueness_pct": 100.0,
+        "quality_score": 100.0
+      },
+      "sellers": {
+        "records": 3095,
+        "columns": 4,
+        "null_values": 0,
+        "completeness_pct": 100.0,
+        "duplicate_rows": 0,
+        "uniqueness_pct": 100.0,
+        "quality_score": 100.0
+      },
+      "products": {
+        "records": 32951,
+        "columns": 10,
+        "null_values": 0,
+        "completeness_pct": 100.0,
+        "duplicate_rows": 0,
+        "uniqueness_pct": 100.0,
+        "quality_score": 100.0
+      },
+      "orders": {
+        "records": 99441,
+        "columns": 14,
+        "null_values": 10838,
+        "completeness_pct": 99.22,
+        "duplicate_rows": 0,
+        "uniqueness_pct": 100.0,
+        "quality_score": 99.46
+      },
+      "order_items": {
+        "records": 112650,
+        "columns": 8,
+        "null_values": 0,
+        "completeness_pct": 100.0,
+        "duplicate_rows": 0,
+        "uniqueness_pct": 100.0,
+        "quality_score": 100.0
+      },
+      "order_payments": {
+        "records": 103886,
+        "columns": 5,
+        "null_values": 0,
+        "completeness_pct": 100.0,
+        "duplicate_rows": 0,
+        "uniqueness_pct": 100.0,
+        "quality_score": 100.0
+      },
+      "order_reviews": {
+        "records": 99224,
+        "columns": 7,
+        "null_values": 0,
+        "completeness_pct": 100.0,
+        "duplicate_rows": 0,
+        "uniqueness_pct": 100.0,
+        "quality_score": 100.0
+      },
+      "geolocation": {
+        "records": 19011,
+        "columns": 5,
+        "null_values": 0,
+        "completeness_pct": 100.0,
+        "duplicate_rows": 0,
+        "uniqueness_pct": 100.0,
+        "quality_score": 100.0
+      }
+    },
+    "referential_integrity": {
+      "orders_to_customers": {
+        "parent_table": "customers",
+        "child_table": "orders",
+        "fk_column": "customer_id",
+        "total_foreign_keys": 99441,
+        "matched_keys": 99441,
+        "match_rate_pct": 100.0,
+        "status": "PASSED"
+      },
+      "order_items_to_orders": {
+        "parent_table": "orders",
+        "child_table": "order_items",
+        "fk_column": "order_id",
+        "total_foreign_keys": 98666,
+        "matched_keys": 98666,
+        "match_rate_pct": 100.0,
+        "status": "PASSED"
+      },
+      "order_items_to_products": {
+        "parent_table": "products",
+        "child_table": "order_items",
+        "fk_column": "product_id",
+        "total_foreign_keys": 32951,
+        "matched_keys": 32951,
+        "match_rate_pct": 100.0,
+        "status": "PASSED"
+      },
+      "order_items_to_sellers": {
+        "parent_table": "sellers",
+        "child_table": "order_items",
+        "fk_column": "seller_id",
+        "total_foreign_keys": 3095,
+        "matched_keys": 3095,
+        "match_rate_pct": 100.0,
+        "status": "PASSED"
+      },
+      "order_payments_to_orders": {
+        "parent_table": "orders",
+        "child_table": "order_payments",
+        "fk_column": "order_id",
+        "total_foreign_keys": 99440,
+        "matched_keys": 99440,
+        "match_rate_pct": 100.0,
+        "status": "PASSED"
+      },
+      "order_reviews_to_orders": {
+        "parent_table": "orders",
+        "child_table": "order_reviews",
+        "fk_column": "order_id",
+        "total_foreign_keys": 98673,
+        "matched_keys": 98673,
+        "match_rate_pct": 100.0,
+        "status": "PASSED"
+      }
+    },
+    "value_constraints": {
+      "review_score_range": {
+        "check": "Review score between 1 and 5",
+        "compliance_pct": 100.0,
+        "status": "PASSED"
+      },
+      "item_price_positive": {
+        "check": "Item price >= 0",
+        "compliance_pct": 100.0,
+        "status": "PASSED"
+      },
+      "payment_value_positive": {
+        "check": "Payment value >= 0",
+        "compliance_pct": 100.0,
+        "status": "PASSED"
+      },
+      "order_status_validity": {
+        "check": "Order status in allowed set",
+        "compliance_pct": 100.0,
+        "status": "PASSED"
+      }
+    },
+    "status": "EXCELLENT"
+  }
+}

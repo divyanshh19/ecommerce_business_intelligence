@@ -1,0 +1,16 @@
+# Backend & Analytics Dependencies
+fastapi>=0.111.0
+uvicorn>=0.30.0
+pydantic>=2.7.0
+pandas>=2.2.0
+numpy>=1.26.0
+sqlalchemy>=2.0.30
+pymysql>=1.1.0
+cryptography>=42.0.0
+openpyxl>=3.1.2
+reportlab>=4.2.0
+scikit-learn>=1.4.0
+python-multipart>=0.0.9
+huggingface-hub>=0.23.0
+pytest>=8.2.0
+requests>=2.31.0
