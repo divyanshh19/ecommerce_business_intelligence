@@ -147,7 +147,32 @@ The file [`backend/sql/analytical_queries.sql`](file:///c:/Desktop/Business%20an
 
 ---
 
-## 🚀 Installation & Local Setup
+## ⚡ Quick Start: Run Everything in ONE Command
+
+You can launch the entire platform (FastAPI backend + React frontend) with a **single command**:
+
+```bash
+# Option A: Universal Cross-Platform Launcher (Windows, macOS, Linux)
+python run.py
+
+# Option B: Using Make (Unix / Linux / macOS)
+make run
+
+# Option C: Windows Batch File
+.\run.bat
+```
+
+This single command automatically:
+1. **Verifies the Database:** Checks [`data/olist_bi.db`](file:///C:/Desktop/Business%20analyze/data/olist_bi.db). If not detected, it automatically runs [`etl_pipeline.py`](file:///C:/Desktop/Business%20analyze/backend/etl/etl_pipeline.py) to clean, validate, and populate all ~100,000 orders.
+2. **Verifies Dependencies:** Confirms backend packages and frontend `node_modules` are ready.
+3. **Starts FastAPI Backend:** Concurrently launches the REST API on `http://localhost:8000`.
+4. **Starts React Frontend:** Concurrently launches the Vite BI Dashboard on `http://localhost:5173`.
+5. **Opens Your Browser:** Directly opens `http://localhost:5173`.
+6. **Graceful Teardown:** Pressing `Ctrl+C` cleanly terminates all child server processes.
+
+---
+
+## 🚀 Installation & Manual Setup
 
 ### 1. Prerequisites
 - Python 3.11+
